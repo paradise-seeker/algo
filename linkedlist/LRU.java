@@ -2,8 +2,7 @@
  * 基于链表模拟实现LRU缓存
  * 
  * @author hxl
-   
-   2018-12-01
+ * 2018-12-01
  */
 
 class SingleLinkedList {
