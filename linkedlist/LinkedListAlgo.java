@@ -191,7 +191,6 @@ class LinkedList {
 		}
 	}
 }
-
 public class LinkedListAlgo{
 	public static void main(String[] args) {
 		LinkedList l1=new LinkedList();
@@ -199,6 +198,5 @@ public class LinkedListAlgo{
 		
 		LinkedList l2=new LinkedList();
 		l2.addString("654");
-		
 		}
 }
