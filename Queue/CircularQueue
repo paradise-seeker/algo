@@ -1,0 +1,36 @@
+/*
+ *数组实现循环队列
+ *
+ */
+
+public class CircularQueue {
+	private int[] items;
+	private int n = 0;
+	// 队头、队尾指针
+	private int head = 0;
+	private int tail = 0;
+
+	public CircularQueue(int capacity) {
+		this.items = new int[capacity];
+		this.n = capacity;
+	}
+  // 入队
+	public boolean enqueue(int item) {
+		// 队满，无法入队
+		if ((tail + 1) % n == head)
+			return false;
+		items[tail] = item;
+		tail = (tail + 1) % n;
+		return true;
+	}
+
+	public int dequeue() {
+		// 队空，无法出队
+		if (head == tail)
+			return -1;
+
+		int temp = items[head];
+		head = (head + 1) % n;
+		return temp;
+	}
+}
