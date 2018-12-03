@@ -4,11 +4,11 @@
  */
 
 public class ArrayQueue {
-    private int[] items;
-    private int n=0;
-    //队头、队尾指针
-    private int head=0;
-    private int tail=0;
+        private int[] items;
+        private int n=0;
+        //队头、队尾指针
+        private int head=0;
+        private int tail=0;
     
 	public ArrayQueue(int capacity){
 		this.items=new int[capacity];
