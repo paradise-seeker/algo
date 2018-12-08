@@ -4,7 +4,7 @@
  * Author: hxl
  */
 
-public class MySorts{
+public class QuickSort{
 	// 快速排序，a是数组，n表示数组的大小
 	public static void quickSort(int []a,int n){
 		quickSortDivide(a,0,n-1);
