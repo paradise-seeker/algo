@@ -29,8 +29,8 @@ class CountingSort {
 		}
 		// 临时数组，存储排序后的结果
 		int[] temp = new int[n];
-		// 计算排序关键步骤
-		for (i = 0; i < n; ++i) {
+		// 计算排序关键步骤,若重头开始取则不是稳定排序算法
+		for (i = n - 1; i >= 0; --i) {
 			int index = c[a[i]] - 1;
 			temp[index] = a[i];
 			--c[a[i]];
