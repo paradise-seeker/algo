@@ -3,7 +3,8 @@ package jike;
 /**
  * 二分查找变种问题
  * 
- * @author hxl 2018-12-18
+ * @author hxl 
+ * 2018-12-18
  */
 
 public class BinarySearchVar {
