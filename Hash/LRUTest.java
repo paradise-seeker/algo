@@ -1,7 +1,8 @@
 /**
  * 基于 散列 + 双向链表 实现LRU
  * 
- * @author hxl 2018-12-22
+ * @author hxl 
+ * 2018-12-22
  */
 
 class LRU {
